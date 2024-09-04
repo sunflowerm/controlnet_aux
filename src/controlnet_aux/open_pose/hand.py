@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import torch
-from scipy.ndimage.filters import gaussian_filter
+from scipy.ndimage import gaussian_filter
 from skimage.measure import label
 
 from . import util
